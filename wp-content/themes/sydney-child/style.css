@@ -6,3 +6,36 @@ Author URI: https://alexandre-gerault.fr
 Template: sydney
 Version: 0.1
 */
+
+.epl-shortcode-listing-category {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.epl-property-blog-entry-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.epl-shortcode-listing-category .property-box {
+  width: 100%;
+  height: 140px;
+}
+
+.content-area .hentry {
+  padding: 0;
+}
+
+/*
+.epl-property-blog-entry-wrapper > a {
+  text-align: center;
+}
+
+.epl-property-blog-entry-wrapper > a > img {
+  width: 100%;
+  height: auto;
+}
+
+*/
