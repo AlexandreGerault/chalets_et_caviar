@@ -10,7 +10,7 @@ Version: 0.1
 .epl-shortcode-listing-category {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
+  gap: 8px;
 }
 
 .epl-property-blog-entry-wrapper {
@@ -19,7 +19,7 @@ Version: 0.1
 }
 
 
-.epl-shortcode-listing-category .property-box {
+.epl-shortcode-listing-category .property-box-left {
   width: 100%;
   height: 140px;
 }
