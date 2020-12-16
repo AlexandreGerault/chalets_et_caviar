@@ -14,14 +14,14 @@
 	<?php do_action('sydney_before_footer'); ?>
 
 	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
-		<?php get_sidebar('footer'); ?>
+		<?php // get_sidebar('footer'); ?>
 	<?php endif; ?>
 
     <a class="go-top"><i class="sydney-svg-icon"><?php sydney_get_svg_icon( 'icon-chevron-up', true ); ?></i></a>
 		
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-		Copyright
+		Copyright - Chalets et Caviar
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
